@@ -63,12 +63,13 @@ mindspore1.9.0 CPU版本
 
 1. `./main.py`：项目代码，直接运行即可。
 2. `./mindspore_VGG.ipynb`：附带网络模型介绍和代码逐段讲解的jupyter notebook文件，可以直接运行
-3. `./BestCheckpointSave/vgg16-best.ckpt`：我们训练了10轮之后的参数，准确率为55%，如果需要的话可以作为预训练参数使用，也可以用来直接测试效果。
+3. `./BestCheckpointSave/vgg16-best.ckpt`：我们训练了40轮之后的参数，准确率为72.5%，如果需要的话可以作为预训练参数使用，也可以用来直接测试效果。
 4. `./datasets-cifar10-bin`：训练和测试使用的数据集。
+5. `./result.txt`：运行的完整输出
 
 ## 运行方式
 
-直接运行main.py即可。
+直接运行main.py或mindspore_VGG.ipynb即可。
 
 ## VGG16网络的结构：
 
